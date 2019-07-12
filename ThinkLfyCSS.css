@@ -2,3 +2,9 @@
 div.CenText{
   text-align: center;
 }
+
+div.row1row2box{
+  height:100px;
+  padding:10px;
+  margin:0;
+}
