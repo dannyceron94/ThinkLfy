@@ -4,8 +4,14 @@ div.CenText{
   vertical-align: middle;
 }
 
+.center {
+  text-align: center;
+}
+
 div.row3{
   background-color: #DAA520;
+  margin:3px;
+
 }
 
 div.row1row2box{
