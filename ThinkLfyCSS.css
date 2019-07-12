@@ -1,6 +1,7 @@
 
 div.CenText{
-  align-items: center;
+  text-align: center;
+  vertical-align: middle;
 }
 
 div.row1row2box{
