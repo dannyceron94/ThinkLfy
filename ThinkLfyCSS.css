@@ -4,6 +4,10 @@ div.CenText{
   vertical-align: middle;
   
 }
+div.purp{
+  backgroun-color: 	#8B008B;
+  color: #FFFFFF;
+}
 
 div.center {
   text-align: center;
