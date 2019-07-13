@@ -86,7 +86,18 @@ known as water conservation or water efficiency.
   
                                           <!--  row 2  -->
   <div class="row CenText">
-    row 2
+    <h3>Find out how much water you waste when you shower</h3>
+    Minutes you take showering: 
+    <input type="number" id="minutes" min="1"><br>
+    <button onClick="waterFunction()">Calculate</button>
+    <p id="result"></p>
+    <script>
+      waterFunction(){
+        var t= document.getElementById("minutes").value;
+        t= 2.1*t;
+        document.getElementById("result").innerHTML =t;
+      }
+    </script>
   </div>
  
                                         
