@@ -3,6 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="./javascript.js"></script>
+<script
+    src="http://maps.googleapis.com/maps/api/js?key=YOUR_APIKEY&sensor=false">
+</script>
   <link rel ="stylesheet" type = "text/css" href="ThinkLfyCSS.css">
   <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -92,7 +97,7 @@ known as water conservation or water efficiency.
     <button onClick="waterFunction()">Calculate</button>
     <p id="result"></p>
     <script>
-      waterFunction(){
+      waterFunction() {
         var t= document.getElementById("minutes").value;
         t= 2.1*t;
         document.getElementById("result").innerHTML =t;
